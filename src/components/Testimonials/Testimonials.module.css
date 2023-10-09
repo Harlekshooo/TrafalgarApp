@@ -1,0 +1,202 @@
+
+.container{
+    margin-top:12rem;
+    width:100%;
+}
+
+.innerContainer{
+    width:80%;
+    margin:auto;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    padding:4rem 4rem;
+}
+
+.topText{
+    text-align:center;
+}
+
+.topText h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 36px; 
+    padding-bottom:2rem;   
+}
+
+.topText hr{
+    width:5%;
+    margin:auto;
+}
+
+.slide{
+    display:flex;
+    justify-content:space-between;
+}
+
+.bottomText{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:3rem;
+}
+
+.profileArea{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+    width:50%;
+}
+
+.profile h4{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 22px;
+}
+
+.profile p{
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Mulish;
+    font-size: 18px;
+}
+
+.textArea{
+    width:50%;
+}
+
+.textArea p{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Mulish;
+    font-size: 19px;
+    width:84%;
+}
+
+
+@media screen and (max-width:1024px){
+
+    .innerContainer{
+        padding:4rem 4rem;
+    }
+
+    .profileArea{
+        gap:1rem;
+        width:50%;
+    }
+
+    .profileImage img{
+        width:100%;
+    }
+
+    .profileImage{
+        width:40%;
+    }
+
+    .profile h4{
+        font-size:20px;
+        width:70%;
+    }
+
+    .profile p{
+        font-size:17px;
+        width:70%;
+    }
+
+    .textArea p{
+        font-size:16px;
+        width:100%;
+        /* padding-right:2rem; */
+    }
+  }
+
+
+  @media screen and (max-width:768px){
+    .innerContainer{
+        padding:2rem 2rem;
+    }
+
+    .topText h2{
+        font-size:26px; 
+        padding-bottom:1rem;   
+    }
+
+    .bottomText{
+        padding-top:2rem;
+    }
+
+    .profileImage img{
+        width:100%;
+    }
+
+    .profile h4{
+        font-size:14px;
+    }
+    
+    .profile p{
+        font-size:13px;
+    }
+
+    .textArea p{
+        font-size:13px;
+        width:84%;
+    }
+  }
+
+
+  @media screen and (max-width:425px){
+
+    .innerContainer{
+        padding:2rem 2rem;
+    }
+
+    .topText h2{
+        font-size:20px; 
+        padding-bottom:0.5rem;   
+    }
+
+    .topText hr{
+        width:20%;
+        margin:auto;
+    }
+
+    .bottomText{
+        flex-direction:column;
+        justify-content:center;
+        gap:1rem;
+        align-items:center;
+        padding-top:1rem;
+    }
+
+    .profileArea{
+        flex-direction:column;
+        align-items:center;
+        gap:0rem;
+        width:100%;
+    }
+
+    .profileImage{
+        width:50%;
+        margin:auto;
+    }
+
+    .profile{
+        width:100%;
+    }
+
+    .profile h4{
+        font-size:14px;
+        width:100%;
+        text-align:center;
+    }
+    
+    .profile p{
+        font-size:13px;
+        width:100%;
+        text-align:center;
+    }
+
+    .textArea p{
+        font-size:13px;
+        width:100%;
+        text-align:center;
+    }
+  }
+

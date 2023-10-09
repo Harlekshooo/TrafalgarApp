@@ -1,0 +1,169 @@
+
+.container{
+    margin-top:7rem;
+}
+
+.heroContent{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:80%;
+    margin:auto;
+    padding-top:3rem;
+}
+
+.textContainer{
+    width:45%;
+}
+
+.textContainer h1{
+    font-family: Mulish;
+    width:60%;
+    padding-bottom:2rem;
+}
+
+.textContainer p{
+    color:#7D7987;
+    font-size:21px;
+    font-family: Mulish;
+    padding-bottom:2rem;
+}
+
+.textContainer button{
+    background-color:#458FF6;
+    color:white;
+    font-size:18px;
+    font-family: Mulish;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:3rem;
+    width:12rem;
+    border: none;
+    border-radius:2rem;
+}
+
+.textContainer button:hover{
+    cursor:pointer;
+    background-color: #0f54b6;
+    transition:all linear 0.5s;
+}
+
+.imageContainer{
+    width:50%
+}
+
+.imageContainer img{
+    width:100%
+}
+
+.dotContainer{
+    /* margin-top: 10rem; */
+    position:relative;
+    bottom:30rem;
+    right:5rem;
+}
+
+/* .dotContainer img{
+    position: relative;
+    
+} */
+
+
+
+@media screen and (max-width:1024px){
+
+    .textContainer h1{
+        font-size:26px;
+    }
+
+    .textContainer p{
+        font-size:18px;
+    }
+
+    .dotContainer{
+        width:12%;
+        bottom:25rem;
+        right:5rem;
+    }
+
+    .dotContainer img{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .textContainer h1{
+        font-size:24px;
+        width:75%;
+    }
+
+    .dotContainer{
+        width:10%;
+        bottom:19rem;
+        right:3rem;
+    }
+
+    .textContainer button{
+        background-color:#458FF6;
+        color:white;
+        font-size:15px;
+        font-family: Mulish;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:3rem;
+        width:10rem;
+        border: none;
+        border-radius:2rem;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .heroContent{
+        display:flex;
+        flex-direction:column-reverse;
+        width:80%;
+        margin:auto;
+        padding-top:3rem;
+    }
+
+    .textContainer{
+        width:100%;
+        margin:auto;
+        text-align:center;
+    }
+
+    .textContainer h1{
+        font-family: Mulish;
+        /* width:100%; */
+        margin:auto;
+        text-align:center;
+        padding-bottom:0.5rem;
+    }
+
+    .textContainer p{
+        font-size:15px;
+        padding-bottom:2rem;
+    }
+
+    .textContainer button{
+        font-size:16px;
+        display:block;
+        height:2rem;
+        width:100%;
+        margin:auto;
+    }
+
+    .imageContainer{
+        width:100%
+    }
+
+    .dotContainer{
+        width:20%;
+        bottom:12rem;
+        right:2.5rem;
+    }
+}

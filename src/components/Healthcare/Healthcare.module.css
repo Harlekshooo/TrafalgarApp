@@ -1,0 +1,161 @@
+
+.container{
+    margin-top:12rem;
+    width:100%;
+}
+
+.innerContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:80%;
+    margin:auto;
+}
+
+.imageContainer{
+   width:55%;
+}
+
+.imageContainer img{
+    width:100%;
+}
+
+.textArea{
+    width:35%;
+}
+
+.textArea h3{
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 56px;             */
+}
+
+.textArea hr{
+    width:56px;
+    height:3px;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    background-color:#000;
+}
+
+.textArea p{
+    padding-bottom:2rem;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px; 
+    margin-bottom:2rem;
+    width:70%;
+}
+
+.buttonContainer{
+    /* display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top:3rem; */
+  }
+  
+  
+  .learn{
+    height:2rem;
+    width:8rem;
+    color:#458FF6;
+    background-color:#fff;
+    border:1px solid #458FF6;
+    border-radius:1rem;
+  }
+  
+  .learn:hover{
+    cursor:pointer;
+    background-color:#458FF6;
+    color:#fff;
+    transition:all linear 0.4s
+  }
+
+  .thirdDotsContainer{
+    float:right;
+    position:relative;
+    left:3rem;
+  }
+
+  .thirdDotsContainer img{
+    width:100%
+  }
+
+@media screen and (max-width:1024px) {
+    .textArea h3{
+        font-size:30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .textArea h3{
+        font-size:22px;
+        /* line-height:0px; */
+    }
+
+    .textArea hr{
+        width:56px;
+        height:3px;
+        margin-bottom:1rem;
+        /* margin-top:1rem; */
+        background-color:#000;
+    }
+
+    .textArea p{
+        padding-bottom:1rem;
+        font-size:14px;
+    }
+
+    .thirdDotsContainer{
+        width:12%;
+        left:2.5rem;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+    .container{
+        margin-top:6rem;
+    }
+
+    .innerContainer{
+        flex-direction:column-reverse;
+    }
+
+    .textArea{
+        width:100%;
+    }
+    
+    .textArea h3{
+        font-size: 20px;
+        text-align:center;
+    }
+    
+    .textArea hr{
+        width:20%;
+        margin:auto;
+        margin-bottom:1rem;
+        margin-top:1rem;
+    }
+
+    .textArea p{
+        padding-bottom:1rem;
+        font-size:13px;
+        width:100%;
+        text-align:center;
+    }
+
+    .learn{
+        height:2rem;
+        width:100%;
+      }
+
+      .imageContainer{
+        width:100%;
+        margin-top:2rem;
+     }
+}

@@ -1,0 +1,155 @@
+
+
+.container{
+    width:100%;
+    margin-top:10rem;
+}
+
+.innerContainer{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:auto;
+}
+
+.textArea{
+    width:50%;
+}
+
+.textArea h3{
+    font-size:36px;
+    font-style:normal;
+    font-weight:700;
+    width:45%;
+    padding-bottom:2rem;
+}
+
+.textArea hr{
+    width:10%;
+    height:3px;
+    background-color:#000;
+    margin-bottom:2rem;
+}
+
+.textArea p{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px; 
+    margin-bottom:2rem;
+    width:70%;   
+}
+
+.textArea button{
+    width:28%;
+    height:3rem;
+    border-radius:2rem;
+    background-color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.3rem;
+    color: #458FF6;
+    font-family: Mulish;
+    border: 2px solid #458FF6;
+}
+
+.textArea button:hover{
+    cursor:pointer;
+    color:#fff;
+    background-color:#458FF6;
+    transition:all linear 0.4s;
+}
+
+.imageContainer{
+    width:50%;
+}
+
+.imageContainer img {
+    width:100%;
+}
+
+
+@media screen and (max-width:1024px){
+
+    .textArea h3{
+        font-size:36px;
+        width:60%;
+        padding-bottom:2rem;
+    }
+  }
+
+  @media screen and (max-width:768px){
+
+    .textArea h3{
+        font-size:22px;
+        font-family:Mulish;
+        padding-bottom:1rem;
+    }
+
+    .textArea hr{
+        margin-bottom:1rem;
+    }
+
+    .textArea p{
+        font-size:15px; 
+        margin-bottom:1rem;
+        width:70%;   
+    }
+
+    .textArea button{
+        width:40%;
+        height:2rem;
+    }
+
+    .imageContainer{
+        width:60%;
+    }
+  }
+
+
+  @media screen and (max-width:425px){
+
+    .container{
+        margin-top:6rem;
+    }
+
+    .innerContainer{
+        flex-direction:column;
+        /* width:100%; */
+    }
+
+    .textArea{
+        width:100%;
+    }
+
+    .textArea h3{
+        font-size:20px;
+        width:100%;
+        text-align:center;
+        padding-bottom:1rem;
+    }
+
+    .textArea hr{
+        width:20%;
+        margin:auto;
+    }
+
+    .textArea p{
+        font-size:13px; 
+        text-align:center;
+        margin-top:1rem;
+        width:100%;
+        padding-bottom:1rem;   
+    }
+
+    .textArea button{
+        width:100%;
+        height:2rem;
+    }
+
+    .imageContainer{
+        width:100%;
+        margin-top:2rem;
+    }
+  }

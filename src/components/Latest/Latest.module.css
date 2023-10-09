@@ -1,0 +1,200 @@
+
+
+.container{
+    width:100%;
+    margin-top:12rem;
+    background-image:url('../../assets/Mango-shape-upside-down.png');
+    background-repeat:no-repeat;
+    background-size:30%;
+    background-position-x:right;
+    background-position-y:5rem;
+
+}
+
+.innerContainer{
+    width:80%;
+    margin:auto;
+}
+
+.topText{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:4rem;
+}
+
+.topText h3{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight:700;
+    padding-bottom:1rem;
+}
+
+.topText hr{
+    width:5%;
+    height:3px;
+    background-color:#000;
+}
+
+.read{
+    text-decoration:none;
+    color: #4089ED;
+    font-family: Mulish;
+    font-size: 17px;
+}
+
+.offerContainer{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+}
+
+.offer{
+    width:30%;
+    background-color:#ece3e3;
+    border-radius:1rem;
+}
+
+.bloodTestContainer{
+    width:100%;
+}
+
+.bloodTestContainer img{
+    width:100%
+}
+
+.textOver{
+    padding:1rem 2rem 2rem 1rem;
+}
+
+.offer h4{
+    width:83%;
+}
+
+.offer p{
+    width:92%;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    padding:0.8rem 0 0.8rem 0;
+}
+
+.btnContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:4rem;
+}
+
+.view{
+    width:15%;
+    height:2.5rem;
+    border-radius:2rem;
+    background-color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.3rem;
+    color: #458FF6;
+    font-family: Mulish;
+    border: 2px solid #458FF6;
+}
+
+.view:hover{
+    cursor:pointer;
+    background-color:#458FF6;
+    color:#fff;
+    transition:all linear 0.4s;
+}
+
+@media screen and (max-width:768px){
+    .topText{
+        padding-bottom:3rem;
+    }
+
+    .topText h3{
+        font-size: 22px;
+    }
+
+    .read{
+        text-decoration:none;
+        color: #4089ED;
+        font-family: Mulish;
+        font-size:13px;
+    }
+
+    .offer p{
+        font-size:13px;
+        padding:0.8rem 0 0.8rem 0;
+    }
+
+    .linkContainer{
+        display: block;
+    }
+
+    .view{
+        width:25%;
+        height:2rem;
+    }
+}
+
+@media screen and (max-width:425px){
+    .container{
+        margin-top:6rem;
+    }
+
+    .topText{
+        padding-bottom:2rem;
+    }
+
+    .topText h3{
+        font-size:20px;
+        padding-bottom:0.5rem;
+    }
+    
+    .topText hr{
+        width:20%;
+    }
+
+    .offerContainer{
+        flex-direction:column;
+        gap:2rem;
+    }
+
+    .offer{
+        width:100%;
+    }
+
+    .textOver{
+        padding:0.5rem 1rem 1rem 0.5rem;
+    }
+    
+    .offer h4{
+        width:100%;
+        text-align:center;
+    }
+    
+    .offer p{
+        width:100%;
+        text-align:center;
+        font-size:13px;
+        padding:0.5rem 1rem 0.5rem 1rem;
+    }
+
+    .linkContainer{
+        text-align:center;
+    }
+
+    .read{
+        font-size:13px;
+    }
+
+    .view{
+        width:100%;
+    }
+
+    .btnContainer{
+        padding-top:2rem;
+    }
+}

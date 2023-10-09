@@ -1,0 +1,177 @@
+
+.container{
+    width:100%;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top:15rem;
+}
+
+footer{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    padding:7rem 0 2rem 0;
+}
+
+.logoPart{
+    width:36%;
+}
+
+.logoPart p{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top:1.5rem;
+}
+
+.listPart{
+    display:flex;
+    justify-content:space-between;
+    gap:7rem;
+}
+
+.innerListPart p{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.innerListPart h4{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom:2rem;
+}
+
+.dot{
+    position:relative;
+    right:2rem;
+}
+
+.dot img{
+    width:7%;
+}
+
+
+@media screen and (max-width:1024px){
+
+    .logoImg{
+        width:50%
+    }
+
+    .logoImg img{
+        width:100%;
+    }
+
+    .logoPart p{
+        font-size:14px;
+    }
+
+    .listPart{
+        gap:4rem;
+    }
+
+    .innerListPart p{
+        font-size:14px;
+    }
+
+    .innerListPart h4{
+        font-size:16px;
+    }
+}
+
+
+@media (max-width:768px){
+
+    .container{
+        margin-top:10rem;
+    }
+
+    footer{
+        padding:4rem 0 1rem 0;
+    }
+
+    .logoImg{
+        width:45%
+    }
+
+    .logoPart p{
+        font-size:13px;
+    }
+
+    .listPart{
+        gap:2rem;
+    }
+
+    .innerListPart p{
+        font-size:13px;
+    }
+
+    .innerListPart h4{
+        font-size:14px;
+        padding-bottom:1.5rem;
+    }
+}
+
+
+@media (max-width:425px){
+
+    .container{
+        margin-top:6rem;
+    }
+
+    footer{
+        width:80%;
+        flex-direction:column;
+        padding:2rem 0 1rem 0;
+    }
+
+    .logoPart{
+        width:100%;
+        padding-bottom:2rem;
+    }
+
+    .logoImg{
+        width:35%
+    }
+
+    .logoPart p{
+        font-size:13px;
+        padding-top:1rem;
+    }
+
+    .listPart{
+        flex-direction:column;
+        gap:2rem;
+    }
+
+    .pContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .innerListPart p{
+        font-size:13px;
+        line-height:28px;
+    }
+
+    .innerListPart h4{
+        font-size:14px;
+        padding-bottom:0rem;
+    }
+}
+
+
+/* @media (max-width:320px){
+
+    .innerListPart p{
+        font-size:9px;
+    }
+} */
