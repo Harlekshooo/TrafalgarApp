@@ -356,3 +356,197 @@ label{
 
 
 
+@media (max-width:425px) {
+    
+    .innerContainerContent{
+        display:flex;
+        flex-direction:column;
+        border-radius:1rem;
+    }
+
+    .community{
+        width:100%;
+        padding:1rem 0;
+    }
+
+    .topText{
+        padding-left:0rem;
+        text-align:center;
+    }
+    
+    .topText h2{
+        font-size:35px;
+        width:100%;
+    }
+    
+    .topText p{
+        font-size:16px;
+        padding-top:1rem;
+    }
+
+    .imgContainer{
+        padding-top:1rem;
+    }
+
+    .started{
+        width:100%;
+        padding:1rem 0;
+    }
+    
+    .secondToptext{
+        padding-bottom:1rem;
+    }
+    
+    .secondToptext h2{
+        font-size:35px;
+    }
+    
+    .secondToptext p{
+        font-size:16px;
+    }
+    
+    .secondToptext span{
+        font-size:16px;
+    }
+
+    .socials{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:1.5rem;
+    }
+    
+    .sign{
+        padding-right:0rem;
+        height:4rem;
+        width:85%;
+        margin:auto;
+        justify-content:center;
+    }
+
+    .sign span{
+        font-size:13px;
+    }
+
+    .orContainer{
+        padding:0.7rem 0;
+        width:80%;
+        margin:auto;
+    }
+
+    .orContainer hr{
+        width:45%;
+    }
+
+    .orContainer p{
+        font-size:16px;
+    }
+
+    form{
+        margin-left:0;
+        margin-right:0;
+        width:80%;
+        margin:auto;
+    }
+
+    input{
+        margin-bottom:2rem;
+        font-size:16px;
+    }
+
+    label{
+        font-size:16px;
+    }
+
+    .btnContainer button{
+        font-size:16px;
+    }
+
+    .btnContainer{
+        width:100%;
+    }
+}
+
+
+
+@media (max-width:375px) {
+
+    .topText h2{
+        font-size:30px;
+    }
+    
+    .topText p{
+        font-size:15px;
+        padding-top:0.7rem;
+    }
+
+    .secondToptext h2{
+        font-size:30px;
+    }
+    
+    .secondToptext p{
+        font-size:15px;
+    }
+    
+    .secondToptext span{
+        font-size:15px;
+    }
+
+    .orContainer p{
+        font-size:15px;
+    }
+
+    input{
+        font-size:15px;
+    }
+
+    label{
+        font-size:15px;
+    }
+
+    .btnContainer button{
+        font-size:15px;
+    }
+}
+
+
+
+@media (max-width:320px) {
+
+    .topText h2{
+        font-size:27px;
+    }
+    
+    .topText p{
+        font-size:14px;
+        padding-top:0.7rem;
+    }
+
+    .secondToptext h2{
+        font-size:27px;
+    }
+    
+    .secondToptext p{
+        font-size:14px;
+    }
+    
+    .secondToptext span{
+        font-size:14px;
+    }
+
+    .orContainer p{
+        font-size:14px;
+    }
+
+    input{
+        font-size:14px;
+    }
+
+    label{
+        font-size:14px;
+    }
+
+    .btnContainer button{
+        font-size:14px;
+    }
+}
