@@ -8,6 +8,7 @@
     width:100%;
     position:fixed;
     background-color:#fff;
+    z-index:3;
 }
 
 header{
@@ -51,7 +52,9 @@ a{
     display:none;
 }
 
-
+.menuContainerr{
+    display:none;
+}
 
 /* .navbar{
     width: 100%;
@@ -225,7 +228,7 @@ li :hover{
 }
 
 
-@media screen and (max-width:425px){
+@media screen and (max-width:500px){
 
     .image img{
         width:100%
@@ -239,7 +242,7 @@ li :hover{
         display:block;
         width:100%;
         /* margin:auto; */
-        background-color:red;
+        background-color:rgb(10, 69, 124);
         text-align:center;
         padding:1rem 0;
         position:relative;
@@ -250,9 +253,31 @@ li :hover{
         flex-direction:column;
     }
 
+    .sidebarLinks li{
+        color:#fff;
+    }
+
     .menuContainer{
         display:block;
-        font-size:3rem;
+        font-size:1.5rem;
+    }
+
+    .menuContainerr{
+        display:block;
+        font-size:1.5rem;
+    }
+
+    .menuContainerr:hover{
+        transition:all linear 0.5s;
+        transform: rotate(360deg);
+    }
+
+    .light{
+        transform:rotate(90deg);
+    }
+
+    .dark{
+        transform:rotate(90deg);
     }
 }
 

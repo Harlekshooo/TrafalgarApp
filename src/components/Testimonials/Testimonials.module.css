@@ -141,7 +141,7 @@
   }
 
 
-  @media screen and (max-width:425px){
+  @media screen and (max-width:500px){
 
     .innerContainer{
         padding:2rem 2rem;

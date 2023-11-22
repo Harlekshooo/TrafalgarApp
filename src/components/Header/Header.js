@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import classes from './Header.module.css'
 import logo from '../../assets/logo.png'
-// import { HiOutlineMenuAlt4 } from "react-icons/hi";
-// import { AiOutlineClose } from "react-icons/ai";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
+import { AiOutlineClose } from "react-icons/ai";
 import {Link} from 'react-router-dom'
 import HeaderLinks from "./HeaderLinks";
+// import { useEffect } from "react";
 
 // const create = document.getElementsByClassName('.menuContainer')
 
@@ -26,12 +27,29 @@ import HeaderLinks from "./HeaderLinks";
     // const sideBar = document.getElementsByClassName(".sidebar")
 
     const [setNav, displaySetNav] = useState(false)
+    
 
     const toggleNav = () => {
       console.log("clicked")
-      displaySetNav(!setNav)
+      displaySetNav(
+        !setNav
+        )
+        // setColor(color) 
+      }
+
+
+      // useEffect(() => {
+      //   document.body.style.backgroundColor = color
+      // }, [color])
     
-    }
+    // const styles = {
+    //   menuContainer:{
+        
+    //   }
+
+      
+    // }
+    
 
 
   return (
@@ -47,7 +65,15 @@ import HeaderLinks from "./HeaderLinks";
             <li>Testimonials</li>
             <li>About us</li>
         </nav>
-        <div className={classes.menuContainer} onClick={toggleNav}>&#8801;</div>
+
+        {/* <div className={classes.menuContainer} style={{display: setNav ? 'none' : 'block', transform: setNav ? 'none' : 'rotate(360deg)', transition: setNav ? 'all linear 5s 5s' : 'all linear 5s 5s'}} onClick={() => toggleNav()}>&#8801;</div>
+        <div className={classes.menuContainer} style={{display: setNav ? 'block' : 'none', transition: setNav ? 'all linear 5s 5s' : 'all linear 5s 5s', transform: setNav ? 'rotate(360deg)' : 'none'}} onClick={() => toggleNav()}>&#215;</div> */}
+
+        
+        {!setNav ? (<HiOutlineMenuAlt4 className={classes.menuContainer} onClick={toggleNav}/>) : 
+        (<AiOutlineClose className={classes.menuContainerr} onClick={toggleNav}/>)}
+        {/* <button onClick={() => click('yellow')}>Change Color</button> */}
+        {/* <div className={classes.menuContainer} onClick={toggleNav}>&#215;</div> */}
         {/* <div className={classes.hamburger} onClick={handleNavToggle}>
         {!navOpen ? (
           <HiOutlineMenuAlt4 className={classes.Icons} />
